@@ -5,18 +5,31 @@
     <title>Plushie</title>
   </head>
   <body>
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
 
-    <header class="home">
+    <!-- logo and nav bar -->
+    <header class="logo">
       <img src="./images/plushie.jpeg" alt="Plushie" title="Welcome to all things Plushie!">
-      <div class="home-bar">
-        <a href="#">Home</a>
-        <a href="#">Shop</a>
-        <a href="#">About</a>
+      <nav class="home-bar">
+        <a href="#">Home</a> 
+        <a href="#">Shop</a> 
+        <a href="#">About</a> 
         <a href="#">Contact</a>
-      </div>
+      </nav>
       
     </header>
+
+
+    <div class="home">
+      
+      <h2>Bestselling Plushies</h2>
+      <ul>
+        <li>Fit for all gifts</li>
+        <li>Ethically sourced materials</li>
+        <li>Express Shipping within Australia</li>
+        <li>Worldwide Shipping</li>
+      </ul>
+    </div>
   
     <!-- <img src="./images/tina.jpeg" alt="Tina"> <br /> -->
     </div>
@@ -25,7 +38,7 @@
     </div>
     <div class="shop">
       <h2>Shop</h2>
-      <h3>Classic Shiba Plushie</h3>
+      <h2 class="product">Classic Shiba Plushie</h2>
       <img src="./images/shiba_trio.jpg" alt="Three different coloured shiba plushies">
       <label for="shiba_colour">Choose your colour:</label>
       <select name="shiba_colour" id="shiba_colour">
@@ -34,15 +47,24 @@
         <option value="gray">Gray + White</option>
       </select>
       <input type="submit" value="Choose">
-      <p>AUD $59.99</p>
+      <p>AUD $59.99</p>  
+    </div>
+    <div class="recommended">
+      <h2>Recommended Plushies</h2>
+      <div class="recommendation">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="./images/corgi_trio.jpg" alt="corgi plushie">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="./images/dinosaur.jpeg" alt="dinosaur plushie">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="./images/cat.jpg" alt="cat plushie">
+      </div>
       
-    
-
+    </div>
     <div class="about">
       <h2>About</h2>
       <h3>Founder & Creator</h3>
-      <img src="./images/tina.jpeg" alt="Tina" title="Hello, I'm Tina!">
-      <figcaption>Tina Shi, founder and creator of the brand Plushie. Tina is an aspiring software engineer who also made this website!</figcaption>
+      <figure>
+        <img src="./images/tina.jpeg" alt="Tina" title="Hello, I'm Tina!">
+        <figcaption>Tina Shi, founder and creator of the brand Plushie. Tina is an aspiring software engineer who also made this website!</figcaption>
+      </figure>
     </div>
 
     <div class="contact">
@@ -52,5 +74,36 @@
       <input type="submit" value="Enter">
     </div>
 
+    <footer>
+      <div>
+        <h3>Contact Us</h3>
+        <p>
+          <a href="mailto:tina@email.com">tina@email.com</a><br>
+          03 9### ####
+        </p>
+      </div>
+
+      <div>
+        <h3>Support</h3>
+        <p>
+          <a href="#" target="_blank">Returns & Exchanges</a><br>
+          <a href="#" target="_blank">Delivery</a><br>
+          <a href="#" target="_blank">FAQs</a><br>
+          <a href="#" target="_blank">Privacy policy</a><br>
+          <a href="#" target="_blank">Terms of Service</a><br>
+        </p>
+      </div>
+
+      <div>
+        <h3>Follow us</h3>
+        <p>
+          <a href="#" target="_blank">Instagram</a><br>
+          <a href="#" target="_blank">TikTok</a><br>
+          <a href="#" target="_blank">Facebook</a>
+        </p>
+      </div>
+      <div></div>
+      <div></div>
+    </footer>
   </body>
 </html>
