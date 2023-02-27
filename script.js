@@ -1,5 +1,5 @@
 const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+h2.textContent = "";
 document.querySelector("body").appendChild(h2);
 
 function bigImg(x) {
@@ -11,3 +11,7 @@ function normalImg(x) {
     x.style.height = "200px";
     x.style.width = "200px";
 }
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Use this code at checkout for 10% off! Code: PLUSHIE10"
+  }

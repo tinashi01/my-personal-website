@@ -1,14 +1,62 @@
-/* body {
-    background-image: url("https://images.pexels.com/photos/1084510/pexels-photo-1084510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+header.logo img {
+    width: 250px;
+    position: relative;
+    left:25px;
+}
+
+header{
+  text-align:center
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-vector/gradient-pastel-sky-background_23-2148908165.jpg?w=1380&t=st=1677475850~exp=1677476450~hmac=d5b8e652227d91dcd3cb439facf4201f6485ae0e5e1f870f50bd7510af350080");
+    background-size: 110%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: cursive;
+  }
+body div.content{
+  text-align: center;
 }
 
-/* body {
-    background: lightgrey;
-    font-family: helvetica;
+
+img#shiba {
+  width: 300px;
+}
+nav.home-bar {
+  font-size: 25px;
+  
+  text-align:center;
 }
 
-body img { 
+div.recommendation img{
+  width: 200px;
+}
+
+div.recommendation figure {
+    float: left;
+    width: 29%;
+
+}
+
+div.about img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+#details div{
+  float:left;
+  width: 33.33%;
+}
+
+div.home {
+  text-align:center;
+  list-style-position: inside;
+}
+
+/*
+
+figure { 
     display: block;
     margin: auto;
     width: 300px;
@@ -20,5 +68,5 @@ body h1, h2 {
 }
 
 div.about h2 {
-    display: inline;
+    display: block;
 }
