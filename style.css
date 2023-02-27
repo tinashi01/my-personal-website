@@ -1,3 +1,23 @@
-body {
-    background: lightpink;
+/* body {
+    background-image: url("https://img.freepik.com/premium-vector/watercolor-abstract-background_583264-55.jpg?w=900");
+    background-position: center center;
+}
+/* body {
+    background: lightgrey;
+    font-family: helvetica;
+}
+
+body img { 
+    display: block;
+    margin: auto;
+    width: 300px;
+    border-radius: 50%;
+}
+
+body h1, h2 {
+    text-align:center;
+}
+
+div.about h2 {
+    display: inline;
 }
