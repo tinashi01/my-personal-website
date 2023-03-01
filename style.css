@@ -5,12 +5,12 @@ header.logo img {
 }
 
 header{
-  text-align:center
+  text-align:center;
 }
 
 body {
     background-image: url("https://img.freepik.com/free-vector/gradient-pastel-sky-background_23-2148908165.jpg?w=1380&t=st=1677475850~exp=1677476450~hmac=d5b8e652227d91dcd3cb439facf4201f6485ae0e5e1f870f50bd7510af350080");
-    background-size: 110%;
+    background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: cursive;
@@ -23,35 +23,48 @@ body div.content{
 img#shiba {
   width: 300px;
 }
+
 nav.home-bar {
   font-size: 25px;
-  
   text-align:center;
 }
 
 div.recommendation img{
   width: 200px;
+  
 }
 
 div.recommendation figure {
-    float: left;
-    width: 29%;
-
+  float: left;
+  width: 20%;
+  position:relative;
+  left:280px;
 }
 
-div.about img {
+
+div#about img {
+  display:inline;
   width: 250px;
   border-radius: 50%;
 }
+
 
 #details div{
   float:left;
   width: 33.33%;
 }
 
-div.home {
+#details {
+  background-color: aliceblue;
+}
+
+div#home {
   text-align:center;
   list-style-position: inside;
+}
+
+div#clear {
+  visibility:hidden;
 }
 
 /*
