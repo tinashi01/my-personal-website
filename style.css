@@ -10,7 +10,7 @@ header{
 
 
 body {
-    background-image: url("https://img.freepik.com/free-vector/gradient-pastel-sky-background_23-2148908165.jpg?w=1380&t=st=1677475850~exp=1677476450~hmac=d5b8e652227d91dcd3cb439facf4201f6485ae0e5e1f870f50bd7510af350080");
+    background-image: url("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -44,9 +44,7 @@ img#shiba {
 	list-style: none;
   text-align: center;
   font-size: 26px;
-  background-image: url("https://img.freepik.com/free-vector/gradient-pastel-sky-background_23-2148908165.jpg?w=1380&t=st=1677475850~exp=1677476450~hmac=d5b8e652227d91dcd3cb439facf4201f6485ae0e5e1f870f50bd7510af350080");
-  background-size:cover;
-  background-repeat: no-repeat;
+  background-color: whitesmoke;
 }
 
 .list > li {
