@@ -17,7 +17,7 @@ body {
     font-family: 'Shantell Sans', cursive;
   }
 
-body div.content{
+body div.content, footer{
   text-align: center;
 }
 
@@ -26,7 +26,7 @@ footer a {
 }
 
 nav a {
-  color: palevioletred;
+  color: #F79AC0;
 }
 
 img#shiba {
@@ -43,7 +43,7 @@ img#shiba {
 .list {
 	list-style: none;
   text-align: center;
-  font-size: 25px;
+  font-size: 26px;
   background-image: url("https://img.freepik.com/free-vector/gradient-pastel-sky-background_23-2148908165.jpg?w=1380&t=st=1677475850~exp=1677476450~hmac=d5b8e652227d91dcd3cb439facf4201f6485ae0e5e1f870f50bd7510af350080");
   background-size:cover;
   background-repeat: no-repeat;
@@ -51,7 +51,7 @@ img#shiba {
 
 .list > li {
   display:inline-block;
-  
+  padding: 5px;
 }
 
 div#recommendation img{
