@@ -8,33 +8,58 @@ header{
   text-align:center;
 }
 
+
 body {
     background-image: url("https://img.freepik.com/free-vector/gradient-pastel-sky-background_23-2148908165.jpg?w=1380&t=st=1677475850~exp=1677476450~hmac=d5b8e652227d91dcd3cb439facf4201f6485ae0e5e1f870f50bd7510af350080");
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: cursive;
+    font-family: 'Shantell Sans', cursive;
   }
+
 body div.content{
   text-align: center;
 }
 
+footer a {
+  color: blue;
+}
+
+nav a {
+  color: palevioletred;
+}
 
 img#shiba {
   width: 300px;
 }
 
-nav.home-bar {
-  font-size: 25px;
-  text-align:center;
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top:0;
+  z-index: 3;
 }
 
-div.recommendation img{
+.list {
+	list-style: none;
+  text-align: center;
+  font-size: 25px;
+  background-image: url("https://img.freepik.com/free-vector/gradient-pastel-sky-background_23-2148908165.jpg?w=1380&t=st=1677475850~exp=1677476450~hmac=d5b8e652227d91dcd3cb439facf4201f6485ae0e5e1f870f50bd7510af350080");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.list > li {
+  display:inline-block;
+  
+}
+
+div#recommendation img{
   width: 200px;
   
 }
 
-div.recommendation figure {
+div#recommendation figure {
   float: left;
   width: 20%;
   position:relative;
@@ -48,14 +73,15 @@ div#about img {
   border-radius: 50%;
 }
 
+#contact form {
+  width:600px;
+  margin:auto;
+}
 
 #details div{
   float:left;
   width: 33.33%;
-}
-
-#details {
-  background-color: aliceblue;
+  
 }
 
 div#home {
@@ -63,9 +89,23 @@ div#home {
   list-style-position: inside;
 }
 
-div#clear {
-  visibility:hidden;
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height:0;
+  line-height: 0;
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
 
 /*
 

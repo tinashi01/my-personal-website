@@ -15,3 +15,4 @@ function normalImg(x) {
 function myFunction() {
     document.getElementById("demo").innerHTML = "Use this code at checkout for 10% off! Code: PLUSHIE10"
   }
+
